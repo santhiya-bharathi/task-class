@@ -1,0 +1,46 @@
+
+section{
+    text-align: center;
+    height: 700px;
+    width: 400px;
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: 15px 15px 38px -11px black;
+}
+
+.tableimg{
+    background: url("https://m.media-amazon.com/images/I/81igaUDtvSS._AC_SX466_.jpg") no-repeat;
+height: 400px;
+width: 400px;
+background-position: center;
+background-size: cover;
+
+}
+.details{
+    background: white;
+    height: 300px;
+ 
+}
+.first{
+  
+margin-left: 20px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.second{
+    margin-left: 20px;
+    text-align: left;
+    font-family: sans-serif;
+}
+.details:hover{
+    background-image: linear-gradient(
+        to right top,
+    #22a9da,
+    #83a8ff,
+    #d482df,
+    #fb5d93,
+    #eb5f39
+    );
+}
